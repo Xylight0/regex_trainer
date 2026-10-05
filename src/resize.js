@@ -13,7 +13,6 @@ export default function Resize() {
   resize_el.addEventListener(
     "mousedown",
     function (e) {
-      console.log("first");
       m_pos = e.x;
       document.addEventListener("mousemove", resize, false);
     },
